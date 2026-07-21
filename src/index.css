@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Navy Card Background */
+  --color-white: #111827; 
+  
+  /* Navy Background & Scale */
+  --color-gray-50: #030712; 
+  --color-gray-100: #1f2937; 
+  --color-gray-200: #374151; 
+  --color-gray-300: #4b5563;
+  --color-gray-400: #6b7280;
+  --color-gray-500: #9ca3af;
+  --color-gray-600: #d1d5db; 
+  --color-gray-700: #e5e7eb;
+  --color-gray-800: #f3f4f6;
+  --color-gray-900: #f9fafb; 
+
+  /* Orange Primary Scale (Replaces Blue) */
+  --color-blue-50: #301b13;
+  --color-blue-100: #572912;
+  --color-blue-500: #f97316;
+  --color-blue-600: #ea580c;
+  --color-blue-700: #c2410c;
+
+  /* Adjust Red for Dark Mode */
+  --color-red-50: #450a0a;
+  --color-red-100: #7f1d1d;
+  --color-red-600: #fca5a5;
+
+  /* Adjust Green for Dark Mode */
+  --color-green-50: #022c22;
+  --color-green-100: #064e3b;
+  --color-green-600: #6ee7b7;
+  --color-green-800: #34d399;
+
+  /* Adjust Purple for Dark Mode */
+  --color-purple-50: #2e1065;
+  --color-purple-100: #4c1d95;
+  --color-purple-600: #c084fc;
+
+  /* Adjust Orange for Dark Mode (if explicitly used) */
+  --color-orange-50: #431407;
+  --color-orange-100: #7c2d12;
+  --color-orange-600: #fdba74;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-gray-50);
+  color: var(--color-gray-900);
+}

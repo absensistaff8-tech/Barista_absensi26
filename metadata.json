@@ -1,0 +1,11 @@
+{
+  "name": "Barista Attendance Web App",
+  "description": "A full-stack web application for barista attendance tracking with location validation and selfie capture.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
